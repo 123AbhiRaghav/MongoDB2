@@ -1,0 +1,27 @@
+[
+    {
+       "topicId": 1,
+       "topic": "Arrays",
+       "topicDate": "2020-10-10"
+    },
+    {
+        "topicId": 2,
+        "topic": " Promises",
+        "topicDate": "2020-10-11"
+     },
+     {
+        "topicId": 3,
+        "topic": "SQLBOLT",
+        "topicDate": "2020-10-12"
+     },
+     {
+        "topicId": 4,
+        "topic": "Callback",
+        "topicDate": "2020-10-13"
+     },
+     {
+        "topicId": 5,
+        "topic": "RWD",
+        "topicDate": "2020-10-14"
+     }
+]

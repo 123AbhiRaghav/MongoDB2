@@ -1,0 +1,45 @@
+1. Find all the topics and tasks which are thought in the month of October
+  Query: 
+   db.getCollection('Topics').aggregate(
+ [
+   {
+     $lookup: {
+                from: 'Tasks', localField: 'topic', foreignField: 'task', as: 'Topic Task Data'
+              }
+   },
+   {
+     $match: {topicDate: { $regex: '2020-10'}}
+   },
+   {
+     $project: { _id:0, topic:1, topicDate:1, 
+     'Topic Task Data.userId':1, 
+      'Topic Task Data.submitted':1,
+      'Topic Task Data.task':1
+   }
+   }
+ ])
+
+
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+ Query: 
+  db.getCollection('Drives').find({ 
+   driveDate: { $gte: '2020-10-15', $lte:'2020-10-31'}
+   })
+
+4. Find the number of problems solved by the user in codekata
+ Query: 
+   db.getCollection('Codekata').aggregate( 
+    [
+     { $group: {
+       _id: 'Problems Solved by Users',
+      count: { $sum: '$problemsSolved'}
+     }} 
+    ])
+
+5. Find all the mentors with who has the mentee's count more than 15
+ Query: 
+  db.Mentors.aggregate([ { $match: { menteesCount: { $gte: 15}}},
+       { $project: { _id:0, mentorName:1, menteesCount: 1} }
+   ])
+
+

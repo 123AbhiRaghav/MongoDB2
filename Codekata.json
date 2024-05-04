@@ -1,0 +1,50 @@
+[
+    {
+        "userId":1,
+        "problemsSolved": 20
+    },
+    {
+        "userId":2,
+        "problemsSolved": 10
+    },
+    {
+        "userId":3,
+        "problemsSolved":15
+    },
+    {
+        "userId":4,
+        "problemsSolved": 13
+    },
+    {
+        "userId":5,
+        "problemsSolved": 25
+    },
+    {
+        "userId":6,
+        "problemsSolved":18
+    },
+    {
+        "userId":7,
+        "problemsSolved":30
+    },
+    {
+        "userId":8,
+        "problemsSolved":22
+    },
+    {
+        "userId":9,
+        "problemsSolved": 19
+    },
+    {
+        "userId":10,
+        "problemsSolved": 9
+    },
+    {
+        "userId":11,
+        "problemsSolved": 26
+    },
+    {
+        "userId":12,
+        "problemsSolved":21
+    }
+]

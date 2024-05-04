@@ -1,0 +1,42 @@
+[
+    {
+        "userId":1,
+        "driveDate": "2020-10-04",
+        "company":"CGL"
+    },
+    {
+        "userId":1,
+        "driveDate": "2020-10-11",
+        "company":"IBM"
+    },
+    {
+        "userId":2,
+        "driveDate": "2020-10-20",
+        "company":"Mahindra"
+    },
+    {
+        "userId":3,
+        "driveDate": "2020-10-25",
+        "company":"ZOHO"
+    },
+    {
+        "userId":2,
+        "driveDate": "2020-10-27",
+        "company":"Amazon"
+    },
+    {
+        "userId":1,
+        "driveDate": "2020-10-04",
+        "company":"Goggle"
+    },
+    {
+        "userId":3,
+        "driveDate": "2020-10-11",
+        "company":"Flipkart"
+    },
+    {
+        "userId":3,
+        "driveDate": "2020-10-25",
+        "company":"SAP"
+    }
+]
